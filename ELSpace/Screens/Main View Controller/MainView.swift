@@ -11,6 +11,7 @@ import UIColor_Hex_Swift
 class MainView: UIView {
     
     private let gradientView = PastelView(frame: .zero)
+    private let logoImageView = UIImageView(frame: .zero)
     
     init() {
         super.init(frame: .zero)
@@ -46,11 +47,16 @@ class MainView: UIView {
     }
     
     private func configureSubviews(){
+        
+        logoImageView.image = #imageLiteral(resourceName: "asset_el_space_logo")
+        
         self.addSubview(gradientView)
+        self.addSubview(logoImageView)
     }
 
 
     private func configureAutolayout(){
         gradientView.edgeAnchors == self.edgeAnchors
+        logoImageView.centerAnchors == self.centerAnchors
     }
 }
