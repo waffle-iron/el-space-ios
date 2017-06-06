@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import HexColors
 
 class MainViewController: UIViewController {
 
@@ -27,7 +28,7 @@ class MainViewController: UIViewController {
     }
 
     private func configureSubviews(){
-        view.backgroundColor = UIColor.red
+        view.backgroundColor = UIColor("1BCEDF")
     }
 }
 

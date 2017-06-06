@@ -6,12 +6,15 @@
 import UIKit
 import Pastel
 import Anchorage
-import UIColor_Hex_Swift
+import HexColors
 
 class MainView: UIView {
     
     private let gradientView = PastelView(frame: .zero)
     private let logoImageView = UIImageView(frame: .zero)
+    private let loginButton = ButtonBase(frame: .zero)
+    private let descriptionTitle = UILabel(frame: .zero)
+    private let bottomLineView = UIView(frame: .zero)
     
     init() {
         super.init(frame: .zero)
@@ -19,7 +22,6 @@ class MainView: UIView {
         configureLoginButton()
         configureSubviews()
         configureAutolayout()
-        
     }
     
     required init?(coder aDecoder: NSCoder) { fatalError("init(coder:) has not been implemented") }
@@ -28,35 +30,44 @@ class MainView: UIView {
     private func configureBackground(){
         gradientView.startPastelPoint = .topLeft
         gradientView.endPastelPoint = .bottomRight
-        
-        gradientView.animationDuration = 5.0
+        gradientView.animationDuration = 3.5
         
         gradientView.setColors([
-            UIColor(red: 156/255, green: 39/255, blue: 176/255, alpha: 1.0),
-            UIColor(red: 255/255, green: 64/255, blue: 129/255, alpha: 1.0),
-            UIColor(red: 123/255, green: 31/255, blue: 162/255, alpha: 1.0),
-            UIColor(red: 32/255, green: 76/255, blue: 255/255, alpha: 1.0),
-            UIColor(red: 32/255, green: 158/255, blue: 255/255, alpha: 1.0),
-            UIColor(red: 90/255, green: 120/255, blue: 127/255, alpha: 1.0),
-            UIColor(red: 58/255, green: 255/255, blue: 217/255, alpha: 1.0)])
+                    UIColor("#17EAD9")!,
+                    UIColor("#622774")!,
+                    UIColor("#7177EA")!,
+                    UIColor("#1BCEDF")!,
+                    UIColor("#3BB2B8")!,
+                    UIColor("#F02FC2")!,
+                    UIColor("#5B247A")!])
         
         gradientView.startAnimation()
     }
     
     private func configureLoginButton(){
+        let buttonTitle = R.string.localizable.google_login_button()
+        
+        loginButton.setTitle(buttonTitle, for: .normal)
+        loginButton.backgroundColor = UIColor("EF5350")
     }
     
     private func configureSubviews(){
         
         logoImageView.image = #imageLiteral(resourceName: "asset_el_space_logo")
         
-        self.addSubview(gradientView)
-        self.addSubview(logoImageView)
+        addSubview(gradientView)
+        addSubview(logoImageView)
+        addSubview(loginButton)
     }
-
-
+    
     private func configureAutolayout(){
         gradientView.edgeAnchors == self.edgeAnchors
-        logoImageView.centerAnchors == self.centerAnchors
+        
+        logoImageView.topAnchor == self.topAnchor + 40
+        logoImageView.centerXAnchor == self.centerXAnchor
+        
+        loginButton.heightAnchor == 50
+        loginButton.bottomAnchor == self.bottomAnchor - 20
+        loginButton.horizontalAnchors == self.horizontalAnchors + 20
     }
 }
