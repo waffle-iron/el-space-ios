@@ -13,7 +13,7 @@
 		5048F2461EDEE7A2001A487E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2451EDEE7A2001A487E /* MainViewController.swift */; };
 		5048F24B1EDEE7A2001A487E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5048F24A1EDEE7A2001A487E /* Assets.xcassets */; };
 		5048F2591EDEE7A2001A487E /* ELSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2581EDEE7A2001A487E /* ELSpaceTests.swift */; };
-		5063AE171EE6FF5400D4E45A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5063AE161EE6FF5400D4E45A /* R.generated.swift */; };
+		5063AE191EE7003A00D4E45A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5063AE181EE7003A00D4E45A /* R.generated.swift */; };
 		50902FC61EE5AAC700D43254 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50902FC51EE5AAC700D43254 /* MainView.swift */; };
 		50902FCE1EE5AE2700D43254 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50902FD01EE5AE2700D43254 /* Localizable.strings */; };
 		50902FD31EE5B06B00D43254 /* ButtonBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50902FD21EE5B06B00D43254 /* ButtonBase.swift */; };
@@ -40,7 +40,7 @@
 		5048F2541EDEE7A2001A487E /* ELSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5048F2581EDEE7A2001A487E /* ELSpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELSpaceTests.swift; sourceTree = "<group>"; };
 		5048F25A1EDEE7A2001A487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5063AE161EE6FF5400D4E45A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		5063AE181EE7003A00D4E45A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		50902FC51EE5AAC700D43254 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		50902FD11EE5AE2D00D43254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50902FD21EE5B06B00D43254 /* ButtonBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBase.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				5048F24A1EDEE7A2001A487E /* Assets.xcassets */,
 				866AADE51EE1A8BA00FAEB6D /* ElSpaceLaunchScreen.storyboard */,
 				5048F24F1EDEE7A2001A487E /* Info.plist */,
-				5063AE161EE6FF5400D4E45A /* R.generated.swift */,
+				5063AE181EE7003A00D4E45A /* R.generated.swift */,
 			);
 			path = "Supporting FIles";
 			sourceTree = "<group>";
@@ -421,7 +421,7 @@
 			files = (
 				5048F2461EDEE7A2001A487E /* MainViewController.swift in Sources */,
 				50902FC61EE5AAC700D43254 /* MainView.swift in Sources */,
-				5063AE171EE6FF5400D4E45A /* R.generated.swift in Sources */,
+				5063AE191EE7003A00D4E45A /* R.generated.swift in Sources */,
 				50902FD31EE5B06B00D43254 /* ButtonBase.swift in Sources */,
 				5048F2441EDEE7A2001A487E /* AppDelegate.swift in Sources */,
 			);
