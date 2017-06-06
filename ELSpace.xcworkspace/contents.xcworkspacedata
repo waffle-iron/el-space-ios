@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ELSpace/Supporting FIles/R.generated.swift">
-   </FileRef>
-   <FileRef
       location = "group:ELSpace.xcodeproj">
    </FileRef>
    <FileRef
