@@ -219,7 +219,6 @@
 				5048F2521EDEE7A2001A487E /* Resources */,
 				906E81B70CAD04FD955689A3 /* [CP] Embed Pods Frameworks */,
 				623D007B81D699FC01052653 /* [CP] Copy Pods Resources */,
-				50902FCB1EE5ADD500D43254 /* [R.Swift] Script Phase */,
 			);
 			buildRules = (
 			);
@@ -325,20 +324,6 @@
 			showEnvVarsInLog = 0;
 		};
 		50104C331EE6DF9D008543D9 /* [R.Swift] Script Phase */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[R.Swift] Script Phase";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/ELSpace/Supporting Files\"";
-		};
-		50902FCB1EE5ADD500D43254 /* [R.Swift] Script Phase */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
