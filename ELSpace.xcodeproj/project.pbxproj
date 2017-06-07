@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0629660C1EE7EF25009FFFA0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629660B1EE7EF25009FFFA0 /* LoginViewController.swift */; };
+		062966111EE7EF33009FFFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0629660D1EE7EF33009FFFA0 /* Assets.xcassets */; };
+		062966121EE7EF33009FFFA0 /* ElSpaceLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0629660F1EE7EF33009FFFA0 /* ElSpaceLaunchScreen.storyboard */; };
+		062966131EE7EF33009FFFA0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 062966101EE7EF33009FFFA0 /* Info.plist */; };
+		062966151EE7EF3E009FFFA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062966141EE7EF3E009FFFA0 /* AppDelegate.swift */; };
 		27BE1933A63FE09C3C00D679 /* Pods_ELSpaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CAC09C2A97E9B29BF92420 /* Pods_ELSpaceTests.framework */; };
 		358D6C6C62E8C93D9E41F5BF /* Pods_ELSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A380DA305A8B49E56FD215 /* Pods_ELSpace.framework */; };
-		5048F2441EDEE7A2001A487E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2431EDEE7A2001A487E /* AppDelegate.swift */; };
-		5048F2461EDEE7A2001A487E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2451EDEE7A2001A487E /* MainViewController.swift */; };
-		5048F24B1EDEE7A2001A487E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5048F24A1EDEE7A2001A487E /* Assets.xcassets */; };
 		5048F2591EDEE7A2001A487E /* ELSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2581EDEE7A2001A487E /* ELSpaceTests.swift */; };
-		866AADE61EE1A8BA00FAEB6D /* ElSpaceLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866AADE51EE1A8BA00FAEB6D /* ElSpaceLaunchScreen.storyboard */; };
+		86F758021EE6E2F000B2AC06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86F758011EE6E2F000B2AC06 /* GoogleService-Info.plist */; };
+		86F758031EE6E2F000B2AC06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86F758011EE6E2F000B2AC06 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062965F71EE7E528009FFFA0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		062965F91EE7E534009FFFA0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		062965FB1EE7E53D009FFFA0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0629660B1EE7EF25009FFFA0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Screens/Login/LoginViewController.swift; sourceTree = "<group>"; };
+		0629660D1EE7EF33009FFFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		0629660E1EE7EF33009FFFA0 /* ELSpace-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ELSpace-Bridging-Header.h"; path = "Resources/ELSpace-Bridging-Header.h"; sourceTree = "<group>"; };
+		0629660F1EE7EF33009FFFA0 /* ElSpaceLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ElSpaceLaunchScreen.storyboard; path = Resources/ElSpaceLaunchScreen.storyboard; sourceTree = "<group>"; };
+		062966101EE7EF33009FFFA0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		062966141EE7EF3E009FFFA0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
 		1E21319772B1B80346FB867E /* Pods-ELSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSpace.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELSpace/Pods-ELSpace.release.xcconfig"; sourceTree = "<group>"; };
 		5048F2401EDEE7A2001A487E /* ELSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5048F2431EDEE7A2001A487E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5048F2451EDEE7A2001A487E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		5048F24A1EDEE7A2001A487E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5048F24F1EDEE7A2001A487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5048F2541EDEE7A2001A487E /* ELSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5048F2581EDEE7A2001A487E /* ELSpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELSpaceTests.swift; sourceTree = "<group>"; };
 		5048F25A1EDEE7A2001A487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CAC09C2A97E9B29BF92420 /* Pods_ELSpaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSpaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		866AADE51EE1A8BA00FAEB6D /* ElSpaceLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ElSpaceLaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F758011EE6E2F000B2AC06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7A380DA305A8B49E56FD215 /* Pods_ELSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72147DECCA8EAEE7B4DBA7C /* Pods-ELSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSpace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELSpace/Pods-ELSpace.debug.xcconfig"; sourceTree = "<group>"; };
 		EF02DB0596F1250A4BD0553C /* Pods-ELSpaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSpaceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELSpaceTests/Pods-ELSpaceTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,9 +72,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062966061EE7EED8009FFFA0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				062966141EE7EF3E009FFFA0 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		062966071EE7EEE8009FFFA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86F758011EE6E2F000B2AC06 /* GoogleService-Info.plist */,
+				0629660D1EE7EF33009FFFA0 /* Assets.xcassets */,
+				0629660E1EE7EF33009FFFA0 /* ELSpace-Bridging-Header.h */,
+				0629660F1EE7EF33009FFFA0 /* ElSpaceLaunchScreen.storyboard */,
+				062966101EE7EF33009FFFA0 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		062966081EE7EEF0009FFFA0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0629660A1EE7EF17009FFFA0 /* Login */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		062966091EE7EEF6009FFFA0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		0629660A1EE7EF17009FFFA0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0629660B1EE7EF25009FFFA0 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		38AB83246424EEB9310A02D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				062965FB1EE7E53D009FFFA0 /* AddressBook.framework */,
+				062965F91EE7E534009FFFA0 /* SystemConfiguration.framework */,
+				062965F71EE7E528009FFFA0 /* StoreKit.framework */,
 				A7A380DA305A8B49E56FD215 /* Pods_ELSpace.framework */,
 				85CAC09C2A97E9B29BF92420 /* Pods_ELSpaceTests.framework */,
 			);
@@ -96,10 +150,10 @@
 		5048F2421EDEE7A2001A487E /* ELSpace */ = {
 			isa = PBXGroup;
 			children = (
-				509E0D791EDEEB5200414C1D /* Resources */,
-				509E0D781EDEEB2D00414C1D /* Application */,
-				509E0D761EDEE9CE00414C1D /* Screens */,
-				509E0D751EDEE9B700414C1D /* Supporting FIles */,
+				062966091EE7EEF6009FFFA0 /* Service */,
+				062966081EE7EEF0009FFFA0 /* Screens */,
+				062966071EE7EEE8009FFFA0 /* Resources */,
+				062966061EE7EED8009FFFA0 /* Application */,
 			);
 			path = ELSpace;
 			sourceTree = "<group>";
@@ -111,47 +165,6 @@
 				5048F25A1EDEE7A2001A487E /* Info.plist */,
 			);
 			path = ELSpaceTests;
-			sourceTree = "<group>";
-		};
-		509E0D751EDEE9B700414C1D /* Supporting FIles */ = {
-			isa = PBXGroup;
-			children = (
-				5048F24A1EDEE7A2001A487E /* Assets.xcassets */,
-				5048F24F1EDEE7A2001A487E /* Info.plist */,
-				866AADE51EE1A8BA00FAEB6D /* ElSpaceLaunchScreen.storyboard */,
-			);
-			name = "Supporting FIles";
-			sourceTree = "<group>";
-		};
-		509E0D761EDEE9CE00414C1D /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				509E0D771EDEEA0600414C1D /* Main View Controller */,
-			);
-			name = Screens;
-			sourceTree = "<group>";
-		};
-		509E0D771EDEEA0600414C1D /* Main View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5048F2451EDEE7A2001A487E /* MainViewController.swift */,
-			);
-			name = "Main View Controller";
-			sourceTree = "<group>";
-		};
-		509E0D781EDEEB2D00414C1D /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				5048F2431EDEE7A2001A487E /* AppDelegate.swift */,
-			);
-			name = Application;
-			sourceTree = "<group>";
-		};
-		509E0D791EDEEB5200414C1D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		ACF5E16AA40C3E6A3A71A955 /* Pods */ = {
@@ -222,6 +235,7 @@
 					5048F23F1EDEE7A2001A487E = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = H5QFB36W2F;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 					5048F2531EDEE7A2001A487E = {
@@ -256,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5048F24B1EDEE7A2001A487E /* Assets.xcassets in Resources */,
-				866AADE61EE1A8BA00FAEB6D /* ElSpaceLaunchScreen.storyboard in Resources */,
+				062966131EE7EF33009FFFA0 /* Info.plist in Resources */,
+				062966111EE7EF33009FFFA0 /* Assets.xcassets in Resources */,
+				86F758021EE6E2F000B2AC06 /* GoogleService-Info.plist in Resources */,
+				062966121EE7EF33009FFFA0 /* ElSpaceLaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F758031EE6E2F000B2AC06 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5048F2461EDEE7A2001A487E /* MainViewController.swift in Sources */,
-				5048F2441EDEE7A2001A487E /* AppDelegate.swift in Sources */,
+				062966151EE7EF3E009FFFA0 /* AppDelegate.swift in Sources */,
+				0629660C1EE7EF25009FFFA0 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,15 +507,19 @@
 			baseConfigurationReference = E72147DECCA8EAEE7B4DBA7C /* Pods-ELSpace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dariusz Rybicki (KB57E8RV46)";
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = H5QFB36W2F;
-				INFOPLIST_FILE = ELSpace/Info.plist;
+				INFOPLIST_FILE = ELSpace/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.elpassion.ELSpace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d4cb3946-1335-49ba-a1a2-445092f0d8e3";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development pl.elpassion.ELSpace";
+				SWIFT_OBJC_BRIDGING_HEADER = "ELSpace/Resources/ELSpace-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -509,15 +530,18 @@
 			baseConfigurationReference = 1E21319772B1B80346FB867E /* Pods-ELSpace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dariusz Rybicki (KB57E8RV46)";
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = H5QFB36W2F;
-				INFOPLIST_FILE = ELSpace/Info.plist;
+				INFOPLIST_FILE = ELSpace/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.elpassion.ELSpace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d4cb3946-1335-49ba-a1a2-445092f0d8e3";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development pl.elpassion.ELSpace";
+				SWIFT_OBJC_BRIDGING_HEADER = "ELSpace/Resources/ELSpace-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
