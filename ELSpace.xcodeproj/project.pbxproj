@@ -10,6 +10,7 @@
 		27BE1933A63FE09C3C00D679 /* Pods_ELSpaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CAC09C2A97E9B29BF92420 /* Pods_ELSpaceTests.framework */; };
 		358D6C6C62E8C93D9E41F5BF /* Pods_ELSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A380DA305A8B49E56FD215 /* Pods_ELSpace.framework */; };
 		500BC9771EE7EF920060D31B /* ScreenBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BC9761EE7EF920060D31B /* ScreenBase.swift */; };
+		500BC97C1EE7F7380060D31B /* ScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BC97B1EE7F7380060D31B /* ScreenCoordinator.swift */; };
 		5048F2441EDEE7A2001A487E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2431EDEE7A2001A487E /* AppDelegate.swift */; };
 		5048F2461EDEE7A2001A487E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048F2451EDEE7A2001A487E /* MainViewController.swift */; };
 		5048F24B1EDEE7A2001A487E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5048F24A1EDEE7A2001A487E /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		1E21319772B1B80346FB867E /* Pods-ELSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSpace.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELSpace/Pods-ELSpace.release.xcconfig"; sourceTree = "<group>"; };
 		500BC9761EE7EF920060D31B /* ScreenBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBase.swift; sourceTree = "<group>"; };
+		500BC97B1EE7F7380060D31B /* ScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCoordinator.swift; sourceTree = "<group>"; };
 		5048F2401EDEE7A2001A487E /* ELSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5048F2431EDEE7A2001A487E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5048F2451EDEE7A2001A487E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		500BC97A1EE7F6F40060D31B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				500BC97B1EE7F7380060D31B /* ScreenCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		5048F2371EDEE7A2001A487E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		5048F2421EDEE7A2001A487E /* ELSpace */ = {
 			isa = PBXGroup;
 			children = (
+				500BC97A1EE7F6F40060D31B /* Coordinators */,
 				509E0D781EDEEB2D00414C1D /* Application */,
 				509E0D761EDEE9CE00414C1D /* Screens */,
 				509E0D751EDEE9B700414C1D /* Supporting FIles */,
@@ -411,6 +422,7 @@
 				5048F2461EDEE7A2001A487E /* MainViewController.swift in Sources */,
 				50902FC61EE5AAC700D43254 /* MainView.swift in Sources */,
 				5063AE191EE7003A00D4E45A /* R.generated.swift in Sources */,
+				500BC97C1EE7F7380060D31B /* ScreenCoordinator.swift in Sources */,
 				50902FD31EE5B06B00D43254 /* ButtonBase.swift in Sources */,
 				5048F2441EDEE7A2001A487E /* AppDelegate.swift in Sources */,
 			);

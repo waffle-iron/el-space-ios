@@ -10,7 +10,7 @@ import HexColors
 class MainView: UIView {
     
     private let backgroundView = ScreenBase()
-    private let loginButton = ButtonBase(frame: .zero)
+    internal let loginButton = ButtonBase(frame: .zero)
     private let descriptionTitle = UILabel(frame: .zero)
     private let bottomSeparator = UIView(frame: .zero)
     

@@ -8,17 +8,15 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    fileprivate var screenCoordinator: ScreenCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.backgroundColor = .gray
-        self.window?.rootViewController = MainViewController()
-        self.window?.makeKeyAndVisible()
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        
+        screenCoordinator = ScreenCoordinator(window: window)
+        screenCoordinator?.present()
         
         return true
     }
-
 }
-
